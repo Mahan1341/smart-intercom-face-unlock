@@ -1,0 +1,26 @@
+# Models
+models/
+*.onnx
+
+# Personal / local assets
+reference.jpg
+reference.png
+me_*.jpg
+me_*.png
+button.png
+button.jpg
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local configuration
+.env
