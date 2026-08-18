@@ -1,5 +1,5 @@
 numpy
-opencv-python
+opencv-contrib-python==5.0.0.93
 onnxruntime
 mss
 pyautogui
