@@ -1,0 +1,12 @@
+from pathlib import Path
+
+WINDOW_NAME = "LDPlayer"
+
+MODEL_PATH = Path("models/w600k_r50.onnx")
+REFERENCE_IMAGE_PATH = Path("reference.jpg")
+BUTTON_TEMPLATE_PATH = Path("button.png")
+
+FACE_THRESHOLD = 0.5
+BUTTON_THRESHOLD = 0.8
+GLOBAL_COOLDOWN_SECONDS = 20
+AUTHORIZED_FRAMES_REQUIRED = 3
